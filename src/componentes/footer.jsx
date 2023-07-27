@@ -9,11 +9,10 @@ const Footer = () => {
                 <p>&copy; 2023 Company, Inc</p>
                 <div>
                     <p>Autor: María Sol García Linfozzi</p>
-                    <p>Contacto: msolgarcialinf@gmail.com</p>
+                    <p className='contacto' >Contacto: msolgarcialinf@gmail.com</p>
                 </div>
                 <ul className="menuFooter">MenuBox</ul>
             </div>
-            <p className="parrafoFooter">Provincia de Buenos Aires.</p>
         </div>
     );
 };
