@@ -31,16 +31,18 @@ body {
 }
 
 .paso {
-    margin-top: 35px;
+    margin-top: 70px;
     font-family: 'Fugaz One', cursive;
     text-align: center;
 }
 
 .pasoD{
+    margin-top: 30px;
     margin-left: 200px;
 }
 
 .pasoI{
+    margin-top: 30px;
     margin-left: 15px;
 }
 
@@ -129,7 +131,7 @@ body {
 .textoBeneficio{
     margin-right: 20px;
     margin-left: 20px;
-    font-family: 'Lilita One', cursive;
+    
 }
 
 .cardBeneficioD {

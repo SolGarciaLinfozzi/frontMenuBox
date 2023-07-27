@@ -1,9 +1,5 @@
 import 'semantic-ui-css/semantic.min.css';
 import '../css/home.css';
-// import {Form, Button} from 'semantic-ui-react';
-// import {useForm} from 'react-hook-form';
-// import axios from 'axios';
-//import { useState } from 'resact';
 
 
 const Home = () => {

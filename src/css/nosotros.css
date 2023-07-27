@@ -1,6 +1,14 @@
 
 /* Proyecto 26 - Double Vertical Slider */
 
+.tituloContenido{
+    margin-right: 50px;
+}
+
+.contenido{
+    margin-left: 25px;
+    margin-right: 70px;
+}
 
 .nosotros{
     text-align: center;

@@ -4,7 +4,7 @@ const Error = () => {
 
     return (
         <>
-            <h1>ERROR</h1>
+            <img src='../img/error404.png' alt="Error 404" style={{ marginTop:'100px', width: '100vw' }} />
         </>
     )
 }

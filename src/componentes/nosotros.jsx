@@ -53,8 +53,8 @@ function Nosotros() {
       <div className="left-slide" style={{ top: `-${activeSlideIndex * 100}vh` }}>
         {slideData.map((slide, index) => (
           <div key={index} style={{ backgroundColor: slide.backgroundColor }}>
-            <h2>{slide.title}</h2>
-            <p>{slide.content}</p>
+            <h2 className='tituloContenido'>{slide.title}</h2>
+            <p className='contenido'>{slide.content}</p>
           </div>
         ))}
       </div>
