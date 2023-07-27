@@ -1,12 +1,15 @@
-.bodyContacto{
+.bodyContacto {
     overflow: hidden;
 }
 
+.errores {
+    color: rgb(196, 2, 2);
+    text-align: center;
+}
 
 /* FORMULARIO CONSULTAS*/
 
-
-.infoMail{
+.infoMail {
     font-family: 'Fugaz One', cursive;
     color: #464646;
 }
@@ -44,8 +47,6 @@
     color: #4a4a4b;
 }
 
-
-
 .casilla {
     background-color: #ffffff;
 }
@@ -54,20 +55,11 @@
     margin-bottom: 40px;
     font-family: 'Fugaz One', cursive;
     color: #464646;
+    padding-top: 50px;
 }
 
-@media screen and (min-width: 1170px) {
 
-    .cardsLocales {
-        width: 100%;
-        max-width: 800px;
-        height: 340px;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        margin: auto;
-        margin-bottom: 600px;
-    }
+@media screen and (min-width: 1170px) {
 
     .formContacto {
         background-image: url(../img/box3.png);
@@ -83,8 +75,8 @@
         opacity: 0.89;
         color: black;
         position: relative;
-        padding-top: 50px;
-        padding-bottom: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
         border-radius: 20px;
     }
 
