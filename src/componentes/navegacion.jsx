@@ -38,6 +38,9 @@ const Navbar = () => {
                                 <a href="./nosotros">Nosotros</a>
                             </li>
                             <li>
+                                <a href="./planes">Planes</a>
+                            </li>
+                            <li>
                                 <a href="./FAQ">FAQ</a>
                             </li>
                             <li>

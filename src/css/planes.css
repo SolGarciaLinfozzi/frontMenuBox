@@ -1,0 +1,110 @@
+.bodyPlanes {
+    background-image: url(../img/mesada.jpg);
+    background-size: cover;
+    text-align: center;
+    padding: 70px 200px;
+    background-repeat: no-repeat;
+    position: relative;
+    color: #fff;
+}
+
+.calcularPlanes {
+    margin-top: 100px;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    font-family: 'Fugaz One', cursive;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: #0e755b;
+    background-color: #287562;
+    opacity: 0.89;
+    padding: 50px;
+}
+
+.tituloPlanes {
+    margin-top: 500px;
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #ffffff;
+    font-family: 'Fugaz One', cursive;
+}
+
+.cantidadBoxes {
+    margin-bottom: 20px;
+}
+
+.labelPlanes {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+body {
+
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+.label {
+    font-size: 16px;
+    color: #444;
+}
+
+.input-field {
+    margin-bottom: 10px;
+}
+
+input[type="number"],
+select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.box {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+
+.total-price {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 20px;
+}
+
+
+/* Boton */
+
+.botonPlanes {
+    background-color: #26aa89;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease;
+    margin-bottom: 25px;
+}
+
+.botonPlanes:hover {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.botonPlanes:active {
+    transform: translateY(2px);
+}

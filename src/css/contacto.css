@@ -32,19 +32,19 @@
 }
 
 ::-webkit-input-placeholder {
-    color: #464646;
+    color: #383838;
 }
 
 :-ms-input-placeholder {
-    color: #545455;
+    color: #383838;
 }
 
 ::-ms-input-placeholder {
-    color: #404041;
+    color: #383838;
 }
 
 ::placeholder {
-    color: #4a4a4b;
+    color: #383838;
 }
 
 .casilla {
@@ -72,7 +72,7 @@
 
     .formContacto div {
         background-color: white;
-        opacity: 0.89;
+        opacity: 0.92;
         color: black;
         position: relative;
         padding-top: 10px;

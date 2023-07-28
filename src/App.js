@@ -9,6 +9,7 @@ import Contacto from "./componentes/contacto"
 import Error from "./componentes/error"
 import Nosotros from "./componentes/nosotros"
 import FAQ from "./componentes/FAQ"
+import Planes from "./componentes/planes"
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="/nosotros" element={<Nosotros/>}></Route>
         <Route path="/contacto" element={<Contacto/>}></Route>
         <Route path="/FAQ" element={<FAQ/>}></Route>
+        <Route path="/planes" element={<Planes/>}></Route>
         {/* Cuando le matcheen a algo que no exista */}
         <Route path="*" element={<Error/>}></Route>
       </Routes>
