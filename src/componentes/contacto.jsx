@@ -93,7 +93,7 @@ const Contacto = () => {
                     <div className="centrar">
                     <p className="text infoMail">Nuestro equipo se contactará contigo.</p>
 
-                    <button className="botonEfecto2" type='submit'> Enviar Consulta </button>
+                    <button className="botonEfecto2" type='submit'> Consultar </button>
 
 
                     </div>
