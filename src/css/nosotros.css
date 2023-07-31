@@ -1,9 +1,24 @@
+/* Computadoras */
+@media screen and (min-width: 1024px) {
+
+    .tituloContenido{
+        margin-right: 50px;
+    }
+    
+}
+
+/* Celular */
+@media screen and (max-width: 767px) {
+
+    .tituloContenido{
+        margin-right: 50px;
+        padding-top: 90px;
+        margin-bottom: 25px;
+    }
+
+}
 
 /* Proyecto 26 - Double Vertical Slider */
-
-.tituloContenido{
-    margin-right: 50px;
-}
 
 .contenido{
     margin-left: 25px;
@@ -126,23 +141,40 @@
     border-bottom-right-radius: 5px;
 }
 
+/* ----------------------------------------------------------------------------------------------- */
 /* Proyecto 12 - FAQ */
 
-.bodyFYQ {
-    font-family: 'Fugaz One', cursive;
-    color: #0e755b;
-    height: 100vh;
+
+/* Computadoras */
+@media screen and (min-width: 1024px) {
+    .bodyFYQ {
+        font-family: 'Fugaz One', cursive;
+        color: #0e755b;
+        height: 100vh;
+    }
 }
+
+/* Celular */
+@media screen and (max-width: 767px) {
+
+    .bodyFYQ {
+        font-family: 'Fugaz One', cursive;
+        color: #0e755b;
+        height: 100vh;
+        margin-top: 70px;
+        margin-bottom: 220px;
+    }
+}
+
+
+
 
 .tituloP12 {
     margin-top: 100px;
     margin-bottom: 40px;
 }
 
-.faq-container {
-    max-width: 850px;
-    margin: 0 auto;
-}
+
 
 .faq {
     background-color: transparent;

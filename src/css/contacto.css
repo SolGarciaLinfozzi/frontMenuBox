@@ -1,65 +1,5 @@
-.bodyContacto {
-    overflow: hidden;
-}
-
-.errores {
-    color: rgb(196, 2, 2);
-    text-align: center;
-}
-
-/* FORMULARIO CONSULTAS*/
-
-.infoMail {
-    font-family: 'Fugaz One', cursive;
-    color: #464646;
-}
-
-.content {
-    display: -ms-grid;
-    display: grid;
-    place-items: center;
-    padding: 0 2em;
-    margin-bottom: 1.8em;
-}
-
-.mail {
-    padding: 0.5em 0 0.5em 1.5em;
-    line-height: 3;
-    width: 100%;
-    border: 1px solid #d9d9d9;
-    border-radius: 0.5em;
-    margin-bottom: 1em;
-}
-
-::-webkit-input-placeholder {
-    color: #383838;
-}
-
-:-ms-input-placeholder {
-    color: #383838;
-}
-
-::-ms-input-placeholder {
-    color: #383838;
-}
-
-::placeholder {
-    color: #383838;
-}
-
-.casilla {
-    background-color: #ffffff;
-}
-
-.tituloContacto {
-    margin-bottom: 40px;
-    font-family: 'Fugaz One', cursive;
-    color: #464646;
-    padding-top: 50px;
-}
-
-
-@media screen and (min-width: 1170px) {
+/* Computadoras */
+@media screen and (min-width: 1024px) {
 
     .formContacto {
         background-image: url(../img/portadaBox2.jfif);
@@ -80,7 +20,107 @@
         border-radius: 20px;
     }
 
+    .content {
+        display: -ms-grid;
+        display: grid;
+        place-items: center;
+        padding: 0 2em;
+        margin-bottom: 1.8em;
+    }
+
+
 }
+
+/* Celular */
+@media screen and (max-width: 767px) {
+
+    .formContacto {
+        background-image: url(../img/portadaBox2.jfif);
+        background-size: cover;
+        text-align: center;
+        padding: 70px 20px;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+
+    .formContacto div {
+        background-color: white;
+        opacity: 0.92;
+        color: black;
+        position: relative;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 20px;
+        width: 540px;
+    }
+
+    .content {
+        display: -ms-grid;
+        place-items: center;
+        padding: 0 2em;
+        margin-bottom: 1.8em;
+    }
+
+}
+
+
+.bodyContacto {
+    overflow: hidden;
+}
+
+.errores {
+    color: rgb(196, 2, 2);
+    text-align: center;
+}
+
+/* FORMULARIO CONSULTAS*/
+
+.infoMail {
+    font-family: 'Fugaz One', cursive;
+    color: #464646;
+}
+
+
+
+::-webkit-input-placeholder {
+    color: #383838;
+}
+
+:-ms-input-placeholder {
+    color: #383838;
+}
+
+::-ms-input-placeholder {
+    color: #383838;
+}
+
+::placeholder {
+    color: #383838;
+}
+
+.mail {
+    padding: 0.5em 0 0.5em 1.5em;
+    line-height: 3;
+    width: 100%;
+    border: 1px solid #d9d9d9;
+    border-radius: 0.5em;
+    margin-bottom: 1em;
+}
+
+.casilla {
+    background-color: #ffffff;
+}
+
+.tituloContacto {
+    margin-bottom: 40px;
+    font-family: 'Fugaz One', cursive;
+    color: #464646;
+    padding-top: 50px;
+}
+
+
+
+
 
 /* Boton con efecto */
 

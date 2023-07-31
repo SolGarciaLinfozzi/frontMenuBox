@@ -1,50 +1,111 @@
 
-.logoSticky{
-    font-size: 30px;
-    margin-top: 10px;
+/* Computadoras */
+@media screen and (min-width: 1024px) {
+
+    .logoSticky{
+        font-size: 30px;
+        margin-top: 10px;
+    }
+    
+    .bodySticky {
+        color: #222;
+        padding-bottom: 50px;
+    }
+    
+    .containerSticky {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    .containerSticky ul{
+        font-size: 20px;
+    }
+    
+    .navSticky {
+        position: fixed;
+        background-color: #ffffff;
+        top: 0;
+        left: 0;
+        right: 0;
+        transition: all 0.3s ease-in-out;
+        z-index: 9999;
+    }
+    
+    .navSticky .containerSticky {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 0;
+        transition: all 0.3s ease-in-out;
+    }
+    
+    .navSticky ul {
+        display: flex;
+        list-style-type: none;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    
+    .navSticky h2 {
+        margin-top: 10px;
+    }
+    
 }
 
-.bodySticky {
-    color: #222;
-    padding-bottom: 50px;
-}
+/* Celular */
+@media screen and (max-width: 767px) {
 
-.containerSticky {
-    max-width: 1200px;
-    margin: 0 auto;
-}
-.containerSticky ul{
-    font-size: 20px;
-}
+    .logoSticky{
+        font-size: 30px;
+        margin-top: 10px;
+    }
+    
+    .bodySticky {
+        color: #222;
+        padding-bottom: 50px;
+    }
+    
+    .containerSticky {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    .containerSticky ul{
+        font-size: 20px;
+    }
+    
+    .navSticky {
+        position: fixed;
+        background-color: #ffffff;
+        top: 0;
+        left: 0;
+        right: 0;
+        transition: all 0.3s ease-in-out;
+        z-index: 9999;
+    }
+    
+    .navSticky .containerSticky {
+        
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 0;
+        transition: all 0.3s ease-in-out;
+    }
+    
+    .navSticky ul {
+        display: flex;
+        list-style-type: none;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    
+    .navSticky h2 {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }
+    
 
-.navSticky {
-    position: fixed;
-    background-color: #ffffff;
-    top: 0;
-    left: 0;
-    right: 0;
-    transition: all 0.3s ease-in-out;
-    z-index: 9999;
-}
-
-.navSticky .containerSticky {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px 0;
-    transition: all 0.3s ease-in-out;
-}
-
-.navSticky ul {
-    display: flex;
-    list-style-type: none;
-    align-items: center;
-    justify-content: center;
-    margin-top: 20px;
-}
-
-.navSticky h2 {
-    margin-top: 10px;
 }
 
 .navSticky a {

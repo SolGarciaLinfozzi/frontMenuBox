@@ -1,11 +1,29 @@
-.bodyPlanes {
-    background-image: url(../img/mesada.jpg);
-    background-size: cover;
-    text-align: center;
-    padding: 70px 200px;
-    background-repeat: no-repeat;
-    position: relative;
-    color: #fff;
+/* Computadoras */
+@media screen and (min-width: 1024px) {
+
+    .bodyPlanes {
+        background-image: url(../img/mesada.jpg);
+        background-size: cover;
+        text-align: center;
+        padding: 70px 200px;
+        background-repeat: no-repeat;
+        position: relative;
+        color: #fff;
+    }
+}
+
+/* Celular */
+@media screen and (max-width: 767px) {
+
+    .bodyPlanes {
+        background-image: url(../img/mesada.jpg);
+        background-size: cover;
+        text-align: center;
+        padding: 70px 10px;
+        background-repeat: no-repeat;
+        position: relative;
+        color: #fff;
+    }
 }
 
 .calcularPlanes {
